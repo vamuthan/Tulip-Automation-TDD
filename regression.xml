@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite" parallel="false">
+
+    <test name="Regression Test">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.tulip.L1Menu.companyModule.CompanyOptionTest"></class>
+            <class name="com.tulip.L1Menu.CustomersModule.CustomersOptionTest"></class>
+            <class name="com.tulip.L1Menu.ecoSystemModule.EcosystemOptionTest"></class>
+            <class name="com.tulip.L1Menu.resourcesModule.BrochuresPageTest"></class>
+            <class name="com.tulip.L1Menu.resourcesModule.ResourcesOptionTest"></class>
+        </classes>
+    </test>
+</suite>
