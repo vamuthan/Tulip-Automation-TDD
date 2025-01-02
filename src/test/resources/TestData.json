@@ -1,12 +1,12 @@
 {
   "jobCountTestData": [
     {
-      "jobCount": 3,
+      "jobCount": 2,
       "pageURLContent": "careers",
       "tableHeadingValue": "Current Openings"
     },
     {
-      "jobCount": 3,
+      "jobCount": 2,
       "pageURLContent": "careers",
       "tableHeadingValue": "Current Openings"
     }
